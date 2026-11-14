@@ -1,0 +1,47 @@
+name: CI/CD Pipeline - Automata NIDS
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [18.x, 20.x]
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: Install Root Dependencies
+        run: npm install
+
+      - name: Install Server Dependencies
+        run: npm --prefix server install
+
+      - name: Install Client Dependencies
+        run: npm --prefix client install
+
+      - name: Run Automata FSM Unit Tests
+        run: npm --prefix server test
+
+      - name: Test Backend API & Startup Verification
+        run: node server/__tests__/api.test.js
+
+      - name: Build Frontend for Production (Vite)
+        run: npm --prefix client run build
+
+      - name: Verify Production Build Artifacts
+        run: |
+          test -f client/dist/index.html || exit 1
+          echo "Production build artifacts verified successfully."

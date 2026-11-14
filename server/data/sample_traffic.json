@@ -1,0 +1,1202 @@
+[
+  {
+    "timestamp": "2026-11-10T08:00:06.385Z",
+    "sourceIP": "192.168.1.15",
+    "destinationIP": "8.8.8.8",
+    "protocol": "TCP",
+    "port": 80,
+    "action": "SYN",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T08:00:51.270Z",
+    "sourceIP": "192.168.1.22",
+    "destinationIP": "1.1.1.1",
+    "protocol": "UDP",
+    "port": 53,
+    "action": "DATA",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T08:01:38.971Z",
+    "sourceIP": "192.168.1.48",
+    "destinationIP": "142.250.190.46",
+    "protocol": "HTTP",
+    "port": 80,
+    "action": "DATA",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T08:02:17.174Z",
+    "sourceIP": "192.168.1.99",
+    "destinationIP": "151.101.65.140",
+    "protocol": "HTTPS",
+    "port": 443,
+    "action": "TLS_CLIENT_HELLO",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T08:03:04.884Z",
+    "sourceIP": "10.0.1.12",
+    "destinationIP": "10.0.0.1",
+    "protocol": "FTP",
+    "port": 21,
+    "action": "DATA",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T08:03:52.885Z",
+    "sourceIP": "10.0.1.84",
+    "destinationIP": "10.0.0.5",
+    "protocol": "SSH",
+    "port": 22,
+    "action": "DISCONNECT",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T08:04:37.310Z",
+    "sourceIP": "172.16.2.10",
+    "destinationIP": "192.168.1.1",
+    "protocol": "DNS",
+    "port": 53,
+    "action": "DNS_QUERY",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T08:05:16.889Z",
+    "sourceIP": "172.16.2.55",
+    "destinationIP": "172.217.16.206",
+    "protocol": "SMTP",
+    "port": 25,
+    "action": "DATA",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T08:06:09.781Z",
+    "sourceIP": "192.168.1.15",
+    "destinationIP": "8.8.8.8",
+    "protocol": "TCP",
+    "port": 80,
+    "action": "SYN",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T08:06:51.614Z",
+    "sourceIP": "192.168.1.22",
+    "destinationIP": "1.1.1.1",
+    "protocol": "UDP",
+    "port": 53,
+    "action": "DATA",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T08:07:38.760Z",
+    "sourceIP": "192.168.1.48",
+    "destinationIP": "142.250.190.46",
+    "protocol": "HTTP",
+    "port": 80,
+    "action": "DATA",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T08:08:15.929Z",
+    "sourceIP": "192.168.1.99",
+    "destinationIP": "151.101.65.140",
+    "protocol": "HTTPS",
+    "port": 443,
+    "action": "ACK",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T08:09:05.014Z",
+    "sourceIP": "10.0.1.12",
+    "destinationIP": "10.0.0.1",
+    "protocol": "FTP",
+    "port": 21,
+    "action": "CONNECT",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T08:09:45.164Z",
+    "sourceIP": "10.0.1.84",
+    "destinationIP": "10.0.0.5",
+    "protocol": "SSH",
+    "port": 22,
+    "action": "DATA",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T08:10:33.133Z",
+    "sourceIP": "172.16.2.10",
+    "destinationIP": "192.168.1.1",
+    "protocol": "DNS",
+    "port": 53,
+    "action": "DNS_QUERY",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T08:11:24.646Z",
+    "sourceIP": "172.16.2.55",
+    "destinationIP": "172.217.16.206",
+    "protocol": "SMTP",
+    "port": 25,
+    "action": "CONNECT",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T08:12:03.107Z",
+    "sourceIP": "192.168.1.15",
+    "destinationIP": "8.8.8.8",
+    "protocol": "TCP",
+    "port": 80,
+    "action": "SYN",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T08:12:46.295Z",
+    "sourceIP": "192.168.1.22",
+    "destinationIP": "1.1.1.1",
+    "protocol": "UDP",
+    "port": 53,
+    "action": "DATA",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T08:13:38.959Z",
+    "sourceIP": "192.168.1.48",
+    "destinationIP": "142.250.190.46",
+    "protocol": "HTTP",
+    "port": 80,
+    "action": "DATA",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T08:14:15.019Z",
+    "sourceIP": "192.168.1.99",
+    "destinationIP": "151.101.65.140",
+    "protocol": "HTTPS",
+    "port": 443,
+    "action": "DATA",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T08:15:03.236Z",
+    "sourceIP": "10.0.1.12",
+    "destinationIP": "10.0.0.1",
+    "protocol": "FTP",
+    "port": 21,
+    "action": "DISCONNECT",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T08:15:47.521Z",
+    "sourceIP": "10.0.1.84",
+    "destinationIP": "10.0.0.5",
+    "protocol": "SSH",
+    "port": 22,
+    "action": "CONNECT",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T08:16:36.777Z",
+    "sourceIP": "172.16.2.10",
+    "destinationIP": "192.168.1.1",
+    "protocol": "DNS",
+    "port": 53,
+    "action": "DNS_QUERY",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T08:17:17.365Z",
+    "sourceIP": "172.16.2.55",
+    "destinationIP": "172.217.16.206",
+    "protocol": "SMTP",
+    "port": 25,
+    "action": "DISCONNECT",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T08:18:05.936Z",
+    "sourceIP": "192.168.1.15",
+    "destinationIP": "8.8.8.8",
+    "protocol": "TCP",
+    "port": 80,
+    "action": "SYN",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T08:18:50.561Z",
+    "sourceIP": "192.168.1.22",
+    "destinationIP": "1.1.1.1",
+    "protocol": "UDP",
+    "port": 53,
+    "action": "DATA",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T08:19:35.330Z",
+    "sourceIP": "192.168.1.48",
+    "destinationIP": "142.250.190.46",
+    "protocol": "HTTP",
+    "port": 80,
+    "action": "DATA",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T08:20:21.349Z",
+    "sourceIP": "192.168.1.99",
+    "destinationIP": "151.101.65.140",
+    "protocol": "HTTPS",
+    "port": 443,
+    "action": "TLS_CLIENT_HELLO",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T08:21:09.233Z",
+    "sourceIP": "10.0.1.12",
+    "destinationIP": "10.0.0.1",
+    "protocol": "FTP",
+    "port": 21,
+    "action": "DATA",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T08:21:50.097Z",
+    "sourceIP": "10.0.1.84",
+    "destinationIP": "10.0.0.5",
+    "protocol": "SSH",
+    "port": 22,
+    "action": "DISCONNECT",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T08:22:30.047Z",
+    "sourceIP": "172.16.2.10",
+    "destinationIP": "192.168.1.1",
+    "protocol": "DNS",
+    "port": 53,
+    "action": "DNS_QUERY",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T08:23:21.053Z",
+    "sourceIP": "172.16.2.55",
+    "destinationIP": "172.217.16.206",
+    "protocol": "SMTP",
+    "port": 25,
+    "action": "DATA",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T08:24:06.578Z",
+    "sourceIP": "192.168.1.15",
+    "destinationIP": "8.8.8.8",
+    "protocol": "TCP",
+    "port": 80,
+    "action": "SYN",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T08:24:45.257Z",
+    "sourceIP": "192.168.1.22",
+    "destinationIP": "1.1.1.1",
+    "protocol": "UDP",
+    "port": 53,
+    "action": "DATA",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T08:25:32.974Z",
+    "sourceIP": "192.168.1.48",
+    "destinationIP": "142.250.190.46",
+    "protocol": "HTTP",
+    "port": 80,
+    "action": "DATA",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T08:26:20.186Z",
+    "sourceIP": "192.168.1.99",
+    "destinationIP": "151.101.65.140",
+    "protocol": "HTTPS",
+    "port": 443,
+    "action": "ACK",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T08:27:06.050Z",
+    "sourceIP": "10.0.1.12",
+    "destinationIP": "10.0.0.1",
+    "protocol": "FTP",
+    "port": 21,
+    "action": "CONNECT",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T08:27:54.742Z",
+    "sourceIP": "10.0.1.84",
+    "destinationIP": "10.0.0.5",
+    "protocol": "SSH",
+    "port": 22,
+    "action": "DATA",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T08:28:39.304Z",
+    "sourceIP": "172.16.2.10",
+    "destinationIP": "192.168.1.1",
+    "protocol": "DNS",
+    "port": 53,
+    "action": "DNS_QUERY",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T08:29:20.202Z",
+    "sourceIP": "172.16.2.55",
+    "destinationIP": "172.217.16.206",
+    "protocol": "SMTP",
+    "port": 25,
+    "action": "CONNECT",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T08:30:00.573Z",
+    "sourceIP": "192.168.1.15",
+    "destinationIP": "8.8.8.8",
+    "protocol": "TCP",
+    "port": 80,
+    "action": "SYN",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T08:30:48.955Z",
+    "sourceIP": "192.168.1.22",
+    "destinationIP": "1.1.1.1",
+    "protocol": "UDP",
+    "port": 53,
+    "action": "DATA",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T08:31:31.461Z",
+    "sourceIP": "192.168.1.48",
+    "destinationIP": "142.250.190.46",
+    "protocol": "HTTP",
+    "port": 80,
+    "action": "DATA",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T08:32:20.534Z",
+    "sourceIP": "192.168.1.99",
+    "destinationIP": "151.101.65.140",
+    "protocol": "HTTPS",
+    "port": 443,
+    "action": "DATA",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T08:33:04.018Z",
+    "sourceIP": "10.0.1.12",
+    "destinationIP": "10.0.0.1",
+    "protocol": "FTP",
+    "port": 21,
+    "action": "DISCONNECT",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T08:33:45.632Z",
+    "sourceIP": "10.0.1.84",
+    "destinationIP": "10.0.0.5",
+    "protocol": "SSH",
+    "port": 22,
+    "action": "CONNECT",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T08:34:37.048Z",
+    "sourceIP": "172.16.2.10",
+    "destinationIP": "192.168.1.1",
+    "protocol": "DNS",
+    "port": 53,
+    "action": "DNS_QUERY",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T08:35:18.170Z",
+    "sourceIP": "172.16.2.55",
+    "destinationIP": "172.217.16.206",
+    "protocol": "SMTP",
+    "port": 25,
+    "action": "DISCONNECT",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T08:36:02.035Z",
+    "sourceIP": "192.168.1.15",
+    "destinationIP": "8.8.8.8",
+    "protocol": "TCP",
+    "port": 80,
+    "action": "SYN",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T08:36:51.166Z",
+    "sourceIP": "192.168.1.22",
+    "destinationIP": "1.1.1.1",
+    "protocol": "UDP",
+    "port": 53,
+    "action": "DATA",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T08:37:32.111Z",
+    "sourceIP": "192.168.1.48",
+    "destinationIP": "142.250.190.46",
+    "protocol": "HTTP",
+    "port": 80,
+    "action": "DATA",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T08:38:23.928Z",
+    "sourceIP": "192.168.1.99",
+    "destinationIP": "151.101.65.140",
+    "protocol": "HTTPS",
+    "port": 443,
+    "action": "TLS_CLIENT_HELLO",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T08:39:06.325Z",
+    "sourceIP": "10.0.1.12",
+    "destinationIP": "10.0.0.1",
+    "protocol": "FTP",
+    "port": 21,
+    "action": "DATA",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T08:39:52.660Z",
+    "sourceIP": "10.0.1.84",
+    "destinationIP": "10.0.0.5",
+    "protocol": "SSH",
+    "port": 22,
+    "action": "DISCONNECT",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T08:40:31.863Z",
+    "sourceIP": "172.16.2.10",
+    "destinationIP": "192.168.1.1",
+    "protocol": "DNS",
+    "port": 53,
+    "action": "DNS_QUERY",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T08:41:20.728Z",
+    "sourceIP": "172.16.2.55",
+    "destinationIP": "172.217.16.206",
+    "protocol": "SMTP",
+    "port": 25,
+    "action": "DATA",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T08:42:06.385Z",
+    "sourceIP": "192.168.1.15",
+    "destinationIP": "8.8.8.8",
+    "protocol": "TCP",
+    "port": 80,
+    "action": "SYN",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T08:42:46.724Z",
+    "sourceIP": "192.168.1.22",
+    "destinationIP": "1.1.1.1",
+    "protocol": "UDP",
+    "port": 53,
+    "action": "DATA",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T08:43:35.650Z",
+    "sourceIP": "192.168.1.48",
+    "destinationIP": "142.250.190.46",
+    "protocol": "HTTP",
+    "port": 80,
+    "action": "DATA",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T08:44:23.165Z",
+    "sourceIP": "192.168.1.99",
+    "destinationIP": "151.101.65.140",
+    "protocol": "HTTPS",
+    "port": 443,
+    "action": "ACK",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T08:45:03.192Z",
+    "sourceIP": "10.0.1.12",
+    "destinationIP": "10.0.0.1",
+    "protocol": "FTP",
+    "port": 21,
+    "action": "CONNECT",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T08:45:53.515Z",
+    "sourceIP": "10.0.1.84",
+    "destinationIP": "10.0.0.5",
+    "protocol": "SSH",
+    "port": 22,
+    "action": "DATA",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T08:46:39.036Z",
+    "sourceIP": "172.16.2.10",
+    "destinationIP": "192.168.1.1",
+    "protocol": "DNS",
+    "port": 53,
+    "action": "DNS_QUERY",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T08:47:24.009Z",
+    "sourceIP": "172.16.2.55",
+    "destinationIP": "172.217.16.206",
+    "protocol": "SMTP",
+    "port": 25,
+    "action": "CONNECT",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T08:48:00.159Z",
+    "sourceIP": "192.168.1.15",
+    "destinationIP": "8.8.8.8",
+    "protocol": "TCP",
+    "port": 80,
+    "action": "SYN",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T08:48:48.684Z",
+    "sourceIP": "192.168.1.22",
+    "destinationIP": "1.1.1.1",
+    "protocol": "UDP",
+    "port": 53,
+    "action": "DATA",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T08:49:31.839Z",
+    "sourceIP": "192.168.1.48",
+    "destinationIP": "142.250.190.46",
+    "protocol": "HTTP",
+    "port": 80,
+    "action": "DATA",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T08:50:18.232Z",
+    "sourceIP": "192.168.1.99",
+    "destinationIP": "151.101.65.140",
+    "protocol": "HTTPS",
+    "port": 443,
+    "action": "DATA",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T08:51:04.736Z",
+    "sourceIP": "10.0.1.12",
+    "destinationIP": "10.0.0.1",
+    "protocol": "FTP",
+    "port": 21,
+    "action": "DISCONNECT",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T08:51:48.034Z",
+    "sourceIP": "10.0.1.84",
+    "destinationIP": "10.0.0.5",
+    "protocol": "SSH",
+    "port": 22,
+    "action": "CONNECT",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T08:52:32.286Z",
+    "sourceIP": "172.16.2.10",
+    "destinationIP": "192.168.1.1",
+    "protocol": "DNS",
+    "port": 53,
+    "action": "DNS_QUERY",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T08:53:20.435Z",
+    "sourceIP": "172.16.2.55",
+    "destinationIP": "172.217.16.206",
+    "protocol": "SMTP",
+    "port": 25,
+    "action": "DISCONNECT",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T08:54:07.705Z",
+    "sourceIP": "192.168.1.15",
+    "destinationIP": "8.8.8.8",
+    "protocol": "TCP",
+    "port": 80,
+    "action": "SYN",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T08:54:50.928Z",
+    "sourceIP": "192.168.1.22",
+    "destinationIP": "1.1.1.1",
+    "protocol": "UDP",
+    "port": 53,
+    "action": "DATA",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T08:55:31.823Z",
+    "sourceIP": "192.168.1.48",
+    "destinationIP": "142.250.190.46",
+    "protocol": "HTTP",
+    "port": 80,
+    "action": "DATA",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T08:56:19.096Z",
+    "sourceIP": "192.168.1.99",
+    "destinationIP": "151.101.65.140",
+    "protocol": "HTTPS",
+    "port": 443,
+    "action": "TLS_CLIENT_HELLO",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T08:57:06.938Z",
+    "sourceIP": "10.0.1.12",
+    "destinationIP": "10.0.0.1",
+    "protocol": "FTP",
+    "port": 21,
+    "action": "DATA",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T08:57:50.342Z",
+    "sourceIP": "10.0.1.84",
+    "destinationIP": "10.0.0.5",
+    "protocol": "SSH",
+    "port": 22,
+    "action": "DISCONNECT",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T08:58:38.695Z",
+    "sourceIP": "172.16.2.10",
+    "destinationIP": "192.168.1.1",
+    "protocol": "DNS",
+    "port": 53,
+    "action": "DNS_QUERY",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T08:59:18.669Z",
+    "sourceIP": "172.16.2.55",
+    "destinationIP": "172.217.16.206",
+    "protocol": "SMTP",
+    "port": 25,
+    "action": "DATA",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T09:00:05.945Z",
+    "sourceIP": "192.168.1.15",
+    "destinationIP": "8.8.8.8",
+    "protocol": "TCP",
+    "port": 80,
+    "action": "SYN",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T09:00:53.303Z",
+    "sourceIP": "192.168.1.22",
+    "destinationIP": "1.1.1.1",
+    "protocol": "UDP",
+    "port": 53,
+    "action": "DATA",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T09:01:39.275Z",
+    "sourceIP": "192.168.1.48",
+    "destinationIP": "142.250.190.46",
+    "protocol": "HTTP",
+    "port": 80,
+    "action": "DATA",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T09:02:20.240Z",
+    "sourceIP": "192.168.1.99",
+    "destinationIP": "151.101.65.140",
+    "protocol": "HTTPS",
+    "port": 443,
+    "action": "ACK",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T09:03:04.532Z",
+    "sourceIP": "10.0.1.12",
+    "destinationIP": "10.0.0.1",
+    "protocol": "FTP",
+    "port": 21,
+    "action": "CONNECT",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T09:03:46.958Z",
+    "sourceIP": "10.0.1.84",
+    "destinationIP": "10.0.0.5",
+    "protocol": "SSH",
+    "port": 22,
+    "action": "DATA",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T09:04:32.829Z",
+    "sourceIP": "172.16.2.10",
+    "destinationIP": "192.168.1.1",
+    "protocol": "DNS",
+    "port": 53,
+    "action": "DNS_QUERY",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T09:05:16.656Z",
+    "sourceIP": "172.16.2.55",
+    "destinationIP": "172.217.16.206",
+    "protocol": "SMTP",
+    "port": 25,
+    "action": "CONNECT",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T09:06:02.072Z",
+    "sourceIP": "192.168.1.15",
+    "destinationIP": "8.8.8.8",
+    "protocol": "TCP",
+    "port": 80,
+    "action": "SYN",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T09:06:47.582Z",
+    "sourceIP": "192.168.1.22",
+    "destinationIP": "1.1.1.1",
+    "protocol": "UDP",
+    "port": 53,
+    "action": "DATA",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T09:07:35.001Z",
+    "sourceIP": "192.168.1.48",
+    "destinationIP": "142.250.190.46",
+    "protocol": "HTTP",
+    "port": 80,
+    "action": "DATA",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T09:08:24.169Z",
+    "sourceIP": "192.168.1.99",
+    "destinationIP": "151.101.65.140",
+    "protocol": "HTTPS",
+    "port": 443,
+    "action": "DATA",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T09:09:03.716Z",
+    "sourceIP": "10.0.1.12",
+    "destinationIP": "10.0.0.1",
+    "protocol": "FTP",
+    "port": 21,
+    "action": "DISCONNECT",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T09:09:47.775Z",
+    "sourceIP": "10.0.1.84",
+    "destinationIP": "10.0.0.5",
+    "protocol": "SSH",
+    "port": 22,
+    "action": "CONNECT",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T09:10:36.976Z",
+    "sourceIP": "172.16.2.10",
+    "destinationIP": "192.168.1.1",
+    "protocol": "DNS",
+    "port": 53,
+    "action": "DNS_QUERY",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T09:11:22.590Z",
+    "sourceIP": "172.16.2.55",
+    "destinationIP": "172.217.16.206",
+    "protocol": "SMTP",
+    "port": 25,
+    "action": "DISCONNECT",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T09:12:08.638Z",
+    "sourceIP": "192.168.1.15",
+    "destinationIP": "8.8.8.8",
+    "protocol": "TCP",
+    "port": 80,
+    "action": "SYN",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T09:12:48.296Z",
+    "sourceIP": "192.168.1.22",
+    "destinationIP": "1.1.1.1",
+    "protocol": "UDP",
+    "port": 53,
+    "action": "DATA",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T09:13:35.659Z",
+    "sourceIP": "192.168.1.48",
+    "destinationIP": "142.250.190.46",
+    "protocol": "HTTP",
+    "port": 80,
+    "action": "DATA",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T09:14:24.159Z",
+    "sourceIP": "192.168.1.99",
+    "destinationIP": "151.101.65.140",
+    "protocol": "HTTPS",
+    "port": 443,
+    "action": "TLS_CLIENT_HELLO",
+    "status": "SAFE",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T09:16:00.000Z",
+    "sourceIP": "185.220.101.5",
+    "destinationIP": "10.0.0.1",
+    "protocol": "TCP",
+    "port": 80,
+    "action": "SYN",
+    "status": "SUSPICIOUS",
+    "fsmState": "SYN_SENT"
+  },
+  {
+    "timestamp": "2026-11-10T09:16:00.200Z",
+    "sourceIP": "185.220.101.5",
+    "destinationIP": "10.0.0.1",
+    "protocol": "TCP",
+    "port": 80,
+    "action": "SYN",
+    "status": "SUSPICIOUS",
+    "fsmState": "SYN_SENT"
+  },
+  {
+    "timestamp": "2026-11-10T09:16:00.400Z",
+    "sourceIP": "185.220.101.5",
+    "destinationIP": "10.0.0.1",
+    "protocol": "TCP",
+    "port": 80,
+    "action": "SYN",
+    "status": "SUSPICIOUS",
+    "fsmState": "ALERT"
+  },
+  {
+    "timestamp": "2026-11-10T09:16:02.000Z",
+    "sourceIP": "185.220.101.99",
+    "destinationIP": "10.0.0.1",
+    "protocol": "TCP",
+    "port": 443,
+    "action": "SYN",
+    "status": "SUSPICIOUS",
+    "fsmState": "SYN_SENT"
+  },
+  {
+    "timestamp": "2026-11-10T09:16:02.150Z",
+    "sourceIP": "185.220.101.99",
+    "destinationIP": "10.0.0.1",
+    "protocol": "TCP",
+    "port": 443,
+    "action": "SYN",
+    "status": "SUSPICIOUS",
+    "fsmState": "SYN_SENT"
+  },
+  {
+    "timestamp": "2026-11-10T09:16:02.300Z",
+    "sourceIP": "185.220.101.99",
+    "destinationIP": "10.0.0.1",
+    "protocol": "TCP",
+    "port": 443,
+    "action": "SYN",
+    "status": "SUSPICIOUS",
+    "fsmState": "ALERT"
+  },
+  {
+    "timestamp": "2026-11-10T09:16:05.000Z",
+    "sourceIP": "45.142.195.12",
+    "destinationIP": "10.0.0.2",
+    "protocol": "SSH",
+    "port": 22,
+    "action": "LOGIN_FAIL",
+    "status": "SUSPICIOUS",
+    "fsmState": "FAILED"
+  },
+  {
+    "timestamp": "2026-11-10T09:16:06.000Z",
+    "sourceIP": "45.142.195.12",
+    "destinationIP": "10.0.0.2",
+    "protocol": "SSH",
+    "port": 22,
+    "action": "LOGIN_FAIL",
+    "status": "SUSPICIOUS",
+    "fsmState": "FAILED"
+  },
+  {
+    "timestamp": "2026-11-10T09:16:07.000Z",
+    "sourceIP": "45.142.195.12",
+    "destinationIP": "10.0.0.2",
+    "protocol": "SSH",
+    "port": 22,
+    "action": "LOGIN_FAIL",
+    "status": "SUSPICIOUS",
+    "fsmState": "FAILED"
+  },
+  {
+    "timestamp": "2026-11-10T09:16:08.000Z",
+    "sourceIP": "45.142.195.12",
+    "destinationIP": "10.0.0.2",
+    "protocol": "SSH",
+    "port": 22,
+    "action": "LOGIN_SUCCESS",
+    "status": "SUSPICIOUS",
+    "fsmState": "ALERT"
+  },
+  {
+    "timestamp": "2026-11-10T09:16:12.000Z",
+    "sourceIP": "194.26.29.112",
+    "destinationIP": "10.0.0.5",
+    "protocol": "TCP",
+    "port": 21,
+    "action": "PORT_SCAN",
+    "status": "SUSPICIOUS",
+    "fsmState": "SYN_SENT"
+  },
+  {
+    "timestamp": "2026-11-10T09:16:12.500Z",
+    "sourceIP": "194.26.29.112",
+    "destinationIP": "10.0.0.5",
+    "protocol": "TCP",
+    "port": 22,
+    "action": "PORT_SCAN",
+    "status": "SUSPICIOUS",
+    "fsmState": "SYN_SENT"
+  },
+  {
+    "timestamp": "2026-11-10T09:16:13.000Z",
+    "sourceIP": "194.26.29.112",
+    "destinationIP": "10.0.0.5",
+    "protocol": "TCP",
+    "port": 80,
+    "action": "PORT_SCAN",
+    "status": "SUSPICIOUS",
+    "fsmState": "SYN_SENT"
+  },
+  {
+    "timestamp": "2026-11-10T09:16:13.500Z",
+    "sourceIP": "194.26.29.112",
+    "destinationIP": "10.0.0.5",
+    "protocol": "TCP",
+    "port": 443,
+    "action": "PORT_SCAN",
+    "status": "SUSPICIOUS",
+    "fsmState": "ALERT"
+  },
+  {
+    "timestamp": "2026-11-10T09:16:14.000Z",
+    "sourceIP": "194.26.29.112",
+    "destinationIP": "10.0.0.5",
+    "protocol": "TCP",
+    "port": 8080,
+    "action": "PORT_SCAN",
+    "status": "SUSPICIOUS",
+    "fsmState": "ALERT"
+  },
+  {
+    "timestamp": "2026-11-10T09:16:18.000Z",
+    "sourceIP": "103.152.18.44",
+    "destinationIP": "10.0.0.8",
+    "protocol": "HTTPS",
+    "port": 443,
+    "action": "CONNECT",
+    "status": "SUSPICIOUS",
+    "fsmState": "CONNECTION"
+  },
+  {
+    "timestamp": "2026-11-10T09:16:18.800Z",
+    "sourceIP": "103.152.18.44",
+    "destinationIP": "10.0.0.8",
+    "protocol": "HTTPS",
+    "port": 443,
+    "action": "DISCONNECT",
+    "status": "SUSPICIOUS",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T09:16:19.600Z",
+    "sourceIP": "103.152.18.44",
+    "destinationIP": "10.0.0.8",
+    "protocol": "HTTPS",
+    "port": 443,
+    "action": "CONNECT",
+    "status": "SUSPICIOUS",
+    "fsmState": "CONNECTION"
+  },
+  {
+    "timestamp": "2026-11-10T09:16:20.400Z",
+    "sourceIP": "103.152.18.44",
+    "destinationIP": "10.0.0.8",
+    "protocol": "HTTPS",
+    "port": 443,
+    "action": "DISCONNECT",
+    "status": "SUSPICIOUS",
+    "fsmState": "START"
+  },
+  {
+    "timestamp": "2026-11-10T09:16:21.200Z",
+    "sourceIP": "103.152.18.44",
+    "destinationIP": "10.0.0.8",
+    "protocol": "HTTPS",
+    "port": 443,
+    "action": "CONNECT",
+    "status": "SUSPICIOUS",
+    "fsmState": "ALERT"
+  }
+]

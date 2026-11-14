@@ -1,0 +1,84 @@
+# ==============================================================================
+# Git Ignore - Automata-Based Network Intrusion Detection System
+# Covers: Node.js, Express, React, Vite, MongoDB, VS Code, and OS artifacts
+# ==============================================================================
+
+# Node Dependencies
+node_modules/
+*/node_modules/
+server/node_modules/
+client/node_modules/
+
+# Production Build Outputs
+dist/
+dist-ssr/
+build/
+client/dist/
+client/build/
+*.tsbuildinfo
+
+# Vite & Bundle Cache
+.vite/
+client/.vite/
+.cache/
+.parcel-cache/
+.eslintcache/
+
+# Environment Configuration (Strictly protect secrets)
+.env
+.env.*
+!.env.example
+client/.env
+client/.env.*
+!client/.env.example
+server/.env
+server/.env.*
+!server/.env.example
+
+# Runtime & Debug Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Database & Storage Files
+*.sqlite
+*.sqlite3
+*.db
+.mongodb/
+dump/
+
+# Temporary Uploads & Staging (Keep directory structures via .gitkeep)
+uploads/*
+!uploads/.gitkeep
+server/uploads/*
+!server/uploads/.gitkeep
+tmp/
+temp/
+
+# Editor & IDE Configs (VS Code, JetBrains, Sublime)
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.swp
+*.swo
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
