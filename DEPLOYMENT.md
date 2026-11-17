@@ -39,9 +39,9 @@ When this command runs:
 ## 3. Step-by-Step Initial Setup
 
 ### Step 3.1: Connect GitHub Repository
-If not already connected, add your remote and push the `main` branch:
+Repository Remote configured:
 ```bash
-git remote add origin https://github.com/<USERNAME>/<REPOSITORY>.git
+git remote add origin https://github.com/medhunm7/automata-nids.git
 git branch -M main
 git push -u origin main
 ```
