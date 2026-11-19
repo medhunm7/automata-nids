@@ -93,6 +93,23 @@ app.get('/api/health', (req, res) => {
   });
 });
 
+// Database Reconnect Trigger Endpoint
+app.post('/api/db/reconnect', async (req, res) => {
+  try {
+    await connectDB();
+    const status = getStoreStatus();
+    if (status.isConnected) {
+      try {
+        const { seedDatabase } = require('./utils/seeder');
+        await seedDatabase(true);
+      } catch (seedErr) {}
+    }
+    return res.status(200).json({ success: true, database: status });
+  } catch (err) {
+    return res.status(500).json({ success: false, error: err.message, database: getStoreStatus() });
+  }
+});
+
 // 7. Mount Application API Routes (Both /api/* and root for REST compliance)
 app.use('/api', authRoutes);
 app.use('/api', eventRoutes);

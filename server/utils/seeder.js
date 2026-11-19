@@ -1,7 +1,7 @@
 /**
  * Database Seeder Script
  * Automatically seeds 100 sample events, 20 suspicious attack events,
- * runs them through the Automata Engine, and inserts alerts & users.
+ * runs them through the Automata Engine, and inserts alerts & users only if database is empty.
  */
 
 const fs = require('fs');
@@ -15,11 +15,11 @@ const { generateSampleEvents } = require('./sampleData');
 const { AutomataDetector } = require('../automata/detector');
 
 async function seedDatabase(silent = false) {
-  if (!silent) console.log('🌱 [Seeder] Starting database population...');
+  if (!silent) console.log('🌱 [Seeder] Starting database population check...');
 
   await connectDB();
 
-  // 1. Seed Default Users
+  // 1. Seed Default Users if not present
   const salt = await bcrypt.genSalt(10);
   const hashedPassword = await bcrypt.hash('Admin@12345', salt);
   const analystHashedPassword = await bcrypt.hash('Analyst@12345', salt);
@@ -46,9 +46,12 @@ async function seedDatabase(silent = false) {
     if (!silent) console.log('  👤 Created default analyst: analyst@nids.local / Analyst@12345');
   }
 
-  // 2. Clear old events and alerts
-  await NetworkEvent.deleteMany({});
-  await Alert.deleteMany({});
+  // 2. Only seed sample events and alerts if the database is currently empty
+  const existingEventsCount = await NetworkEvent.countDocuments();
+  if (existingEventsCount > 0) {
+    if (!silent) console.log(`  ℹ️ Database already contains ${existingEventsCount} events. Preserving existing data.`);
+    return { eventsCount: existingEventsCount };
+  }
 
   // 3. Generate 100 safe + 20 suspicious network events
   const rawEvents = generateSampleEvents();
