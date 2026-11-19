@@ -6,8 +6,6 @@
 
 const mongoose = require('mongoose');
 
-let isConnected = false;
-let isFallbackMode = false;
 let lastMongoError = null;
 let reconnectInterval = null;
 
@@ -21,10 +19,10 @@ const memoryStore = {
 function scheduleReconnect() {
   if (reconnectInterval) return;
   reconnectInterval = setInterval(async () => {
-    if (!isConnected) {
+    if (mongoose.connection.readyState !== 1) {
       console.log('🔄 [MongoDB] Retrying connection to MongoDB Atlas in background...');
       await connectDB();
-      if (isConnected) {
+      if (mongoose.connection.readyState === 1) {
         clearInterval(reconnectInterval);
         reconnectInterval = null;
         try {
@@ -51,32 +49,30 @@ async function connectDB() {
       serverSelectionTimeoutMS: 10000,
       family: 4, // Force IPv4 to prevent IPv6 DNS delays
     });
-    isConnected = true;
-    isFallbackMode = false;
     lastMongoError = null;
     console.log(`✅ [MongoDB] Connected successfully to ${uri.replace(/:[^:]*@/, ':***@')}`);
   } catch (err) {
     lastMongoError = err.message;
     console.warn(`⚠️ [MongoDB] Connection failed (${err.message}).`);
     console.warn(`⚡ [Fallback] Activating in-memory persistence layer. Full API & Automata engine operational.`);
-    isConnected = false;
-    isFallbackMode = true;
     scheduleReconnect();
   }
 }
 
 function getStoreStatus() {
   const uri = process.env.MONGO_URI || process.env.MONGODB_URI || '';
+  const isConnected = mongoose.connection.readyState === 1;
   return {
     isConnected,
-    isFallbackMode,
-    type: isFallbackMode ? 'In-Memory DB Store' : 'MongoDB Atlas (Live)',
+    isFallbackMode: !isConnected,
+    type: isConnected ? 'MongoDB Atlas (Live)' : 'In-Memory DB Store',
+    readyState: mongoose.connection.readyState,
     configuredUri: uri ? uri.replace(/:[^:]*@/, ':***@') : 'not-configured',
     lastError: lastMongoError,
     counts: {
-      users: isFallbackMode ? memoryStore.users.length : null,
-      events: isFallbackMode ? memoryStore.events.length : null,
-      alerts: isFallbackMode ? memoryStore.alerts.length : null
+      users: !isConnected ? memoryStore.users.length : null,
+      events: !isConnected ? memoryStore.events.length : null,
+      alerts: !isConnected ? memoryStore.alerts.length : null
     }
   };
 }
@@ -85,5 +81,5 @@ module.exports = {
   connectDB,
   getStoreStatus,
   memoryStore,
-  isUsingFallback: () => isFallbackMode
+  isUsingFallback: () => mongoose.connection.readyState !== 1
 };
